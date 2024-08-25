@@ -59,4 +59,3 @@ ENV AWS_REGION=${AWS_REGION}
 ENV S3_BUCKET=${S3_BUCKET}
 ENTRYPOINT ["dumb-init"]
 CMD ["node", "--enable-source-maps", "dist/index.js", "--storage-provider=s3"]
-
