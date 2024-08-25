@@ -1,6 +1,6 @@
 config:
   name: turborepo-remote-cache
-  service_type: fe
+  service_type: be
   port: 3000
   domain:
     prod: turborepo-remote-cache.xquare.app
